@@ -29,3 +29,16 @@ git diff <branch name>
 git merge <branch name>
 
 git pull origin <branch name> = to get all changes made on remote/github to local/vscode
+
+git log = to see all commits
+
+to undo changes:-
+case1 : stagged/add changes
+git reset <file name>
+Case 2: commited changes (for one commit)
+git reset HEAD~1
+Case 3: commited changes (for many commits)
+git reset <- commit hash ->
+git reset --hard <- commit hash -> =remove from vs code also
+
+fork to create copy of other project and paste into our account.
